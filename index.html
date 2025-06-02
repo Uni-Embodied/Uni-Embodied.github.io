@@ -55,7 +55,7 @@
     <a href="#">Renjing Xu</a><sup>6</sup>,
     <a href="#">Xiaoshuai Hao</a><sup>7,†</sup>
   </span>
-  <br><br>
+  <br>
   <span class="author-block">
     <sup>1</sup>Shenzhen International Graduate School, Tsinghua University<br>
     <sup>2</sup>Institute of Automation, Chinese Academy of Sciences<br>
@@ -94,6 +94,16 @@
                   <span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span>
                 </a>
               </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://msc-bench.github.io/"
+                   class="external-link button is-normal is-rounded is-dark"
+                   target="_blank">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
             </div>
           </div>
         </div>
@@ -101,6 +111,23 @@
     </div>
   </div>
 </section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+          <img 
+              src="static/images/fig1.png"
+              class="pipeline image"
+              alt="pipeline image"
+              style="margin-bottom: 20px;"
+          />
+      <h2 class="subtitle has-text-centered">
+        This work introduces <strong>Uni-Embodied</strong> Benchmark, the first comprehensive benchmark designed to evaluate VLMs across the three key dimensions of embodied intelligence: planning, perception, and execution.
+      </h2>
+    </div>
+  </div>
+</section>
+
 
 <!-- Abstract -->
 <section class="section hero is-light">
@@ -124,8 +151,104 @@
         </div>
       </div>
     </div>
+    
+
   </div>
 </section>
+
+
+<!-- Method Overview -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <h2 class="title is-3">Benchmark Definition</h2>
+            <img src="static/images/fig2.png" alt="NaVid" class="center-image blend-img-background">
+            <div class="level-set has-text-justified">
+              <p class="has-text-justified">
+                Overview of the Uni-Embodied Benchmark. 
+                Our benchmark includes nine diverse tasks—ranging from complex and simple embodied planning to trajectory summarization, map understanding, affordance recognition, spatial pointing, manipulation analysis, and execution in both navigation and manipulation contexts.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Method Overview -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <h2 class="title is-3">Experimental Results</h2>
+            <br>
+            <h2 class="subtitle is-4">Planning Tasks</h2>
+            <img src="static/images/leidatu.png" alt="NaVid" class="center-image blend-img-background">
+            <div class="level-set has-text-justified">
+              <p class="has-text-justified">
+                Performance comparison of VLMs on embodied planning tasks including complex-task (navigation-manipulation combined) and simple-tasks (desktop manipulation only).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <h2 class="subtitle is-4">Perception Tasks</h2>
+            <img src="static/images/tab1.png" alt="NaVid" class="center-image blend-img-background">
+            <div class="level-set has-text-justified">
+              <p class="has-text-justified">
+                Performance Comparison of VLMs on Embodied Perception Tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <h2 class="subtitle is-4">Perception Tasks</h2>
+            <img src="static/images/tab2.png" alt="NaVid" class="center-image blend-img-background">
+            <div class="level-set has-text-justified">
+              <p class="has-text-justified">
+                Performance comparison of models on navigation and manipulation execution benchmark.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <h2 class="title is-3">Ablation Study</h2>
+            <img src="static/images/tab3.png" alt="NaVid" class="center-image blend-img-background">
+            <div class="level-set has-text-justified">
+              <p class="has-text-justified">
+                Ablation experiments on chain-of-thought enhancement and hybrid training.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 <!-- End Abstract -->
 
 <!-- You can now continue with your video, carousel, BibTeX, etc. -->
